@@ -15,6 +15,7 @@
 		00F16FB71DBF554900A981E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F16FB51DBF554900A981E5 /* Main.storyboard */; };
 		00F16FB91DBF554900A981E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00F16FB81DBF554900A981E5 /* Assets.xcassets */; };
 		00F16FBC1DBF554900A981E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00F16FBA1DBF554900A981E5 /* LaunchScreen.storyboard */; };
+		00F16FC41DBF55D800A981E5 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F16FC31DBF55D800A981E5 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		00F16FB81DBF554900A981E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00F16FBB1DBF554900A981E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		00F16FBD1DBF554900A981E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00F16FC31DBF55D800A981E5 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				00F16FB81DBF554900A981E5 /* Assets.xcassets */,
 				00F16FBA1DBF554900A981E5 /* LaunchScreen.storyboard */,
 				00F16FBD1DBF554900A981E5 /* Info.plist */,
+				00F16FC31DBF55D800A981E5 /* Player.swift */,
 			);
 			path = BangRun;
 			sourceTree = "<group>";
@@ -100,7 +103,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Bruno Vilela";
 				TargetAttributes = {
 					00F16FA71DBF554900A981E5 = {
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F16FC41DBF55D800A981E5 /* Player.swift in Sources */,
 				00F16FB21DBF554900A981E5 /* GameScene.swift in Sources */,
 				00F16FB41DBF554900A981E5 /* GameViewController.swift in Sources */,
 				00F16FAC1DBF554900A981E5 /* AppDelegate.swift in Sources */,
@@ -194,6 +198,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -216,7 +221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -243,6 +248,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -259,7 +265,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -312,6 +318,7 @@
 				00F16FC21DBF554900A981E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
